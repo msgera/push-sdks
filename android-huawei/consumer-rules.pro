@@ -1,0 +1,1 @@
+-keep class io.msgera.push.huawei.MsgeraHmsService { *; }

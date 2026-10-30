@@ -1,0 +1,10 @@
+build/
+.gradle/
+.idea/
+*.iml
+local.properties
+node_modules/
+.dart_tool/
+.build/
+.swiftpm/
+.DS_Store

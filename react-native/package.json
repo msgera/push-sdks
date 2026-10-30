@@ -1,0 +1,27 @@
+{
+  "name": "@msgera/push",
+  "version": "1.1.0",
+  "description": "Msgera push notifications SDK for React Native",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msgera/push-sdks.git",
+    "directory": "react-native"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@react-native-firebase/app": ">=21.0.0",
+    "@react-native-firebase/messaging": ">=21.0.0",
+    "react-native": ">=0.76.0"
+  },
+  "peerDependenciesMeta": {
+    "@notifee/react-native": {
+      "optional": true
+    }
+  }
+}

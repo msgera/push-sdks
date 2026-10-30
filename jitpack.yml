@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :android:publishToMavenLocal :android-huawei:publishToMavenLocal --no-daemon
